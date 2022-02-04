@@ -1,0 +1,72 @@
+doctype html
+html(lang="en")
+    head 
+        title Dance Academy
+        link(rel="stylesheet", href="../static/style.css")
+        link(rel="stylesheet",media="screen and (max-width:1330px)" href="../static/phone.css")
+
+    body
+        nav#navbar 
+            ul
+                div#logo
+                    img(src='/static/logo.png')
+                    p NAK
+                div#navname    
+                    li #[a(href='/') Home]
+                    li #[a(href='/') Our Misson]
+                    li #[a(href='/') Service]
+                    li #[a(href='/') Contact Us]
+                    li #[a(href='/') Gallery]
+
+        section#intro
+            div#head Welcome to Nitrro Kola Academy
+            div#para All kind of Dance Catagories are teaches are.
+
+        section#misson
+            h2 Our Misson
+            div#cardsection
+                div.card
+                    h3 Follow Your Passion 
+                    div.part
+                        img(src='/static/sd-1.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, incidunt!
+                    
+                div.card
+                    h3 Dance for Fit
+                    div.part
+                        img(src='/static/sd-2.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, incidunt!
+                div.card
+                    h3 Dance for Everyone 
+                    div.part
+                        img(src='/static/sd-5.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, incidunt! 
+                div.card
+                    h3 Dance for Happyness
+                    div.part
+                        img(src='/static/sd-6.png')
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, incidunt!       
+
+        section#sponser
+            h2 Our Sponseres
+            div.sponser-img
+                img(src='/static/sp-1.png')
+                img(src='/static/sp-2.png')
+                img(src='/static/sp-3.png')
+                img(src='/static/sp-4.png')
+                img(src='/static/sp-5.png')
+                img(src='/static/sp-6.png')
+
+        section#contact
+            div.container
+                h1 Contact Us 
+                form(action='/' method="post") 
+                    input(type="text" name="name" id="name" placeholder="Enter Your Name" required)
+                    input(type="email" name ="email" id="email" placeholder="Enter Your Email-id" required)
+                    input(type="number" name="number" id="phone" placeholder="Enter Your Phone number" required)
+                    input(type="text" name="gender" id="gender" placeholder="Enter Your Gender" required)
+                    input(type="text" name="address" id="address" placeholder="Enter Your Address" required)
+                    button(type="submit" id="btn") 
+                        | Submit
+        footer#footer
+            |© Nitrro Academy 2022 by RD 

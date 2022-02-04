@@ -1,0 +1,104 @@
+#navbar {
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#navbar li a{
+    font-size:40px;
+} 
+
+#navbar::before{
+    height: 200px;
+}
+
+#navbar ul{
+    flex-direction: column;
+}
+
+#logo img {
+    height: 80px;
+}
+
+#logo p{
+    font-size: 45px;
+}
+/* --------------------------------- */
+
+#intro{
+    height: 471px;
+}
+#intro::before{
+    height: 666px;
+}
+
+/* ------------------------------ */
+#misson{
+    height: 1515px;
+}
+#misson h2 {
+    font-size: 50px;
+}   
+.card{
+    width: 450px;
+    height: 290px;
+    margin: 20px;
+    box-shadow: -16px 12px blueviolet;
+}
+.card h3{
+    font-size: 28px;
+}
+#misson div#cardsection {
+    flex-direction: column;
+    align-items: center;
+}
+.part {
+    padding: 36px;
+}
+.part img {
+    height: 150px;
+}
+
+/* -------------------------------------------- */
+#sponser{
+    height:350px;
+}
+#sponser h2{
+    font-size: 50px;
+}
+#sponser::before{
+    height: 350px;
+}
+#sponser div.sponser-img {
+    padding-top: 64px;
+}
+#sponser div.sponser-img img {
+    height: 105px;
+}
+/* --------------------------------------------- */
+#contact{
+    height: 550px;
+}
+#contact h1 {
+    font-size: 50px;
+}
+#contact::before{
+    height: 550px;
+}
+input{
+    width: 50%;
+    padding: 8px 12px;
+    margin: 11px;
+    font-size: 27px;
+    border-radius: 18px;
+}
+
+#btn{
+    font-size: 21px;
+    border-radius: 9px;
+}
+/* ----------------------------------------- */
+#footer{
+    height: 40px;
+    font-size:25px
+}

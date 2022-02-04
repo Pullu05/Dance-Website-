@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Dance Academy
+    link(rel="stylesheet", href="../static/navbar.css")
+    link(rel="stylesheet",media="screen and (max-width:1330px)" href="../static/navbar_Phone.css")
+    block style
+
+      
+  body
+    nav#navbar 
+            ul
+                div#logo
+                    img(src='/static/logo.png')
+                    p NAK
+                div#navname    
+                    li #[a(href='/') Home]
+                    li #[a(href='#misson') Our Misson]
+                    li #[a(href='/contact') Contact Us]
+                    li #[a(href='/') Service]
+                    li #[a(href='/') Gallery]
+    block content
+    footer#footer
+      |© Nitrro Academy 2022 by RD
+

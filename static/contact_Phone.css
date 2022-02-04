@@ -1,0 +1,28 @@
+/* #navbar::before {
+    opacity: 1;
+} */
+/* ------------------------------------------------------- */
+#contact{
+    height: 910px;
+}
+#contact h1 {
+    font-size: 50px;
+    padding-top: 50px;;
+}
+#contact::before{
+    height: 1110px;
+}
+input{
+    width: 50%;
+    padding: 8px 12px;
+    margin: 11px;
+    font-size: 27px;
+    border-radius: 18px;
+}
+
+#btn{
+    font-size: 21px;
+    border-radius: 9px;
+}
+
+/* ----------------------------------------------------- */

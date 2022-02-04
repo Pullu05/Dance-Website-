@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Comforter+Brush&family=Fuzzy+Bubbles:wght@700&family=Lobster+Two&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+/* ----------------------------NAVBAB------------------------------------ */
+#navbar{
+    height: 60px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    height:60px;
+    width: 100%;
+    background-color: black;
+    z-index:-1;
+    opacity: .3;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:15px ;
+}
+#logo img{
+    height: 45px;
+    border: 2px solid black;
+    background-color: rgb(214, 214, 214);
+    border-radius: 50%;
+    filter: invert();
+}
+#logo p{
+    color: yellow;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 22px;
+}
+#navbar ul{
+    display: flex;
+}
+#navname{
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    padding: 11px 10px;
+}
+
+#navbar li a{
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    padding: 6px 12px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+#navbar li a:hover{
+    color:rgb(15, 39, 255);
+}
+
+/* ---------------------------------END OF NAVBAR-------------------------- */
+
+/*-------------------------- START OF INTRO SECTION------------------------ */
+#intro{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 461px;
+    background: url('/static/Background img/intro_bg.jpg') no-repeat center center/cover ;
+    z-index: -2;
+}
+
+#intro div#head{
+    color: azure;
+    font-size: 50px;
+    font-weight: bold;
+}
+#intro div#para{
+    color: aliceblue;
+    font-size:25px;
+    padding: 5px;
+}
+
+/*---------------------------- END OF INTRO SECTION---------------------------*/
+
+/* -----------------------------------------Misson section------------------------ */
+#misson{
+    height: 350px;
+    /* background-color: rgb(254 244 182); */
+}
+#misson h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 8px;
+    text-shadow: 0 0 yellow;
+} 
+
+#misson div#cardsection{
+    display: flex;
+    justify-content:space-evenly;
+}
+.card{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: -9px 5px 2px blueviolet;
+    background-color: #93c8dd;
+    width: 20%;
+    height: 175px;
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+.card:hover{
+    background-color:#6eb0ca ;
+}
+.card h3{
+    color: blueviolet;
+}
+.card p{
+    color: crimson;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+.part{
+
+    padding-top: 18px;
+    display: flex;
+}
+.part img{
+    height: 100px
+}
+/* ------------------------ENd of Misson SEction ------------------------------------------*/
+
+/* ------------------------Sponser section--------------------------------------- */
+#sponser{
+    height: 300px;
+    /* background-color: cadetblue; */
+}
+#sponser::before{
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background: url('/static/Background img/sponser_bg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .3;
+}
+#sponser h2{
+    font-size: 30px ;
+    text-align: center;
+    padding: 8px;
+    text-shadow: 2px 2px red;
+}
+
+#sponser div.sponser-img{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sponser div.sponser-img img{
+    height: 150px;
+}
+
+
+/*---------------------End of Sponser Section ------------------------------------------------- */
+/* -----------------------Contact Section--------------------------------------- */
+#contact{
+    height: 380px;
+    /* margin-top:20px; */
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 380px;
+    width: 100%;
+    background: url('/static/Background img/contact_bg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .6;
+}
+#contact h1{
+    text-align: center;
+    text-shadow: 0 0 black;
+    font-size: 33px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+    width: 35%;
+    padding: 4px 12px;
+    margin: 9px;
+    font-size: 17px;
+    border: 2px solid rgb(12, 11, 12);
+    border-radius: 8px;
+    outline: none;
+}
+#btn{
+    padding: 4px 13px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #a7cdd8;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+/* ----------------------End of Contact Section-------------------------------------- */
+
+
+/* --------------------------Footer-------------------------------- */
+#footer{
+    height: 20px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    /* background-color: cornsilk; */
+    text-align: center;
+}

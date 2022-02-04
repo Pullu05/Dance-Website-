@@ -1,0 +1,30 @@
+#navbar {
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#navbar li a{
+    font-size:40px;
+} 
+
+#navbar::before{
+    height: 200px;
+}
+
+#navbar ul{
+    flex-direction: column;
+}
+
+#logo img {
+    height: 80px;
+}
+
+#logo p{
+    font-size: 45px;
+}
+/* ------------------------------ */
+#footer{
+    height: 40px;
+    font-size:25px
+}

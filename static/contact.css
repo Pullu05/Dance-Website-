@@ -1,0 +1,52 @@
+
+#navbar::before {
+    opacity: .5;
+}
+/* -----------------------Contact Section--------------------------------------- */
+#contact{
+    height: 682px;
+    /* margin-top:20px; */
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    height: 745px;
+    width: 100%;
+    background: url('/static/Background img/contact_bg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .6;
+}
+#contact h1{
+    text-align: center;
+    text-shadow: 0 0 black;
+    font-size: 33px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+input{
+    width: 35%;
+    padding: 4px 12px;
+    margin: 9px;
+    font-size: 17px;
+    border: 2px solid rgb(12, 11, 12);
+    border-radius: 8px;
+    outline: none;
+}
+#btn{
+    padding: 4px 13px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #a7cdd8;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+/* ----------------------End of Contact Section-------------------------------------- */
